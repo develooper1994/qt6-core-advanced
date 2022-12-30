@@ -9,6 +9,7 @@
 
     How
     QtConcurrent
+
 */
 
 #include <QCoreApplication>

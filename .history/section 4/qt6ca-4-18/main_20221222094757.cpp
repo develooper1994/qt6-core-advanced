@@ -1,4 +1,5 @@
 /*
+
   What
   UDP Chat example
 
@@ -7,6 +8,7 @@
 
   How
   See the code
+
 */
 
 #include <QCoreApplication>

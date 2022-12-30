@@ -9,6 +9,7 @@
 
     How
     QtConcurrent
+
 */
 
 #include <QCoreApplication>
@@ -32,10 +33,8 @@ int main(int argc, char *argv[])
     }
 
     qInfo() << "Starting...";
-    // code
     QList<int> updated = QtConcurrent::blockingMapped(values,&do_map);
     qInfo() << "Finished";
-    
     qInfo() << updated;
 
 

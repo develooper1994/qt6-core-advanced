@@ -35,7 +35,6 @@ int main(int argc, char *argv[])
         list.append(i);
     }
 
-    // code
     QFutureWatcher<int> watcher;
     QFuture<int> future = QtConcurrent::mapped(list,&multiply);
     watcher.setFuture(future);

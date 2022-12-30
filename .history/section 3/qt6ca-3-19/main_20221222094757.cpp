@@ -35,7 +35,6 @@ int main(int argc, char *argv[])
         list.append(i);
     }
 
-    // code
     QFutureWatcher<void> watcher;
     Test test;
     QObject::connect(&watcher, &QFutureWatcher<void>::finished,&test,&Test::finished); //Auto connect "should" work

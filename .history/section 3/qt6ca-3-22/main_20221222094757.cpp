@@ -1,4 +1,5 @@
 /*
+
   What
   Interate over Future values
 
@@ -7,7 +8,8 @@
 
   How
   QFutureIterator
-*/
+
+ */
 
 #include <QCoreApplication>
 #include <QtConcurrent>

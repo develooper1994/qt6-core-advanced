@@ -36,10 +36,8 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
     QThread::currentThread()->setObjectName("Main");
 
-    // code
     QThreadPool pool;
     QFuture<void> future = QtConcurrent::run(&pool,test);
-    
     qInfo() << "Main on: " << QThread::currentThread();
 
     return a.exec();

@@ -7,7 +7,7 @@
 
   How
   QFutureIterator
-*/
+ */
 
 #include <QCoreApplication>
 #include <QtConcurrent>
