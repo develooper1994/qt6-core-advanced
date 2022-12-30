@@ -7,7 +7,7 @@
   We want multiple resuable threads
 
   How
-  QTreadPool and QRunnable
+  QThreadPool and QRunnable
 
  */
 
